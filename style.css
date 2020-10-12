@@ -1,0 +1,329 @@
+@font-face {
+  font-family: "SourceSansPro-Light";
+  src: url(Assets/fonts/SourceSansPro-Light.ttf);
+}
+
+@font-face {
+  font-family: "SourceSansPro-Regular";
+  src: url(Assets/fonts/SourceSansPro-Regular.ttf);
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  background-size: contain;
+  overflow-x: hidden;
+}
+
+.text-over-image {
+  position: absolute;
+  z-index: 1;
+  top: 60px;
+  left: 120px;
+  font-size: 4em;
+  color: #ffffff;
+  font-family: "SourceSansPro-Light";
+}
+
+.betweenText p {
+  font-family: "SourceSansPro-Light";
+  color: #0f0f0f;
+}
+
+.betweenText .text-master {
+  font-size: 4em;
+}
+
+.betweenText .text-branch {
+  font-size: 2em;
+}
+
+#flipContent p {
+  font-size: 2.8em;
+  color: #ee4023;
+  font-family: "SourceSansPro-Regular";
+  margin-left: 90px;
+}
+
+#flipContent .text-branch {
+  font-size: 2.1em;
+  color: #0f0f0f;
+  font-family: "SourceSansPro-Light";
+  margin-left: 90px;
+}
+
+#flip,
+#change {
+  color: #ee4023;
+  font-size: 1.9em;
+  line-height: 1.4;
+  margin-left: 90px;
+  border: 2px solid red;
+  border-radius: 0;
+  width: 370px;
+}
+
+#flip:hover {
+  color: white;
+}
+#change:hover {
+  color: white;
+}
+
+#emailbtn {
+  background-color: orangered;
+  border: 2px solid orangered;
+  border-radius: 0;
+}
+
+#emailText {
+  line-height: 2.3;
+}
+
+#emailText::placeholder {
+  font-style: italic;
+}
+
+#changePos .text-branch {
+  font-size: 2.1em;
+  color: #0f0f0f;
+  font-family: "SourceSansPro-Light";
+  margin-left: 90px;
+}
+
+#changePos .text-master {
+  font-size: 2.8em;
+  color: #ee4023;
+  font-family: "SourceSansPro-Regular";
+  margin-left: 90px;
+}
+
+.bannerEnd {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.bannerHead {
+  font-size: 2.8em;
+  color: #ffffff;
+  font-family: "SourceSansPro-Regular";
+  margin-top: 20px;
+}
+
+.bannerlower {
+  font-size: 1.4em;
+  color: #ffffff;
+  font-family: "SourceSansPro-Light";
+  margin-top: -25px;
+}
+
+#emailbtn {
+  margin-left: 1px;
+
+}
+#emailbtn:hover {
+  color: orangered;
+  background-color: white;
+}
+
+.jumbotron {
+  margin-bottom: 280px;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+}
+
+.footerImage {
+  background: url(Assets/geometric-band.jpg) no-repeat center center scroll;
+  transform: scaleX(-1);
+  background-size: cover;
+  width: 100%;
+  min-height: 120px;
+  position: relative;
+}
+.footnav {
+  display: inline-flex;
+  list-style: none;
+}
+
+.footnav li {
+  margin-top: 40px;
+}
+.footnav li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "SourceSansPro-Light";
+  font-size: 1.4em;
+}
+
+.footnav li a:hover {
+  color: lightblue;
+}
+
+
+/* MEDIA  */
+@media (min-width: 2000px) {
+  body {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+  .container-fluid {
+    box-shadow: rgb(204, 204, 204) 0px 0px 20px 0px;
+  }
+
+  .text-over-image {
+    position: absolute;
+    z-index: 1;
+    top: 60px;
+    left: 100px;
+    font-size: 3.5em;
+    color: #ffffff;
+    font-family: "SourceSansPro-Light";
+  }
+
+  #flipContent p {
+    font-size: 2.8em;
+    color: #ee4023;
+    font-family: "SourceSansPro-Regular";
+    margin-left: 90px;
+  }
+
+  #flipContent .text-branch {
+    font-size: 1.8em;
+    color: #0f0f0f;
+    font-family: "SourceSansPro-Light";
+    margin-left: 90px;
+  }
+
+  #changePos p {
+    font-size: 2.8em;
+    color: #ee4023;
+    font-family: "SourceSansPro-Regular";
+    margin-left: 90px;
+  }
+
+  #changePos .text-branch {
+    font-size: 1.8em;
+    color: #0f0f0f;
+    font-family: "SourceSansPro-Light";
+    margin-left: 90px;
+  }
+}
+
+ @media (min-width: 1300px) {
+    .text-over-image {
+        position: absolute;
+        z-index: 1;
+        top: 75px;
+        left: 120px;
+        font-size: 3.9em;
+        color: #ffffff;
+        font-family: "SourceSansPro-Light";
+      }
+
+      #emailbtn {
+          line-height: 1.5;
+      }
+
+      .jumbotron {
+        margin-bottom: 300px;
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+      }
+
+} 
+
+@media (min-width: 900px) {
+    .text-over-image {
+        position: absolute;
+        z-index: 1;
+        top: 45px;
+        left: 70px;
+        font-size: 3.9em;
+        color: #ffffff;
+        font-family: "SourceSansPro-Light";
+      }
+
+      .jumbotron {
+        margin-bottom: 50px;
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+      }
+
+      .jumbotron h2 {
+        font-size: 2.8em;
+      }
+
+      .jumbotron h4 {
+        font-size: 1.6em;
+      }
+}
+
+
+
+@media (min-width: 768px) {
+    .text-over-image {
+        position: absolute;
+        z-index: 1;
+        top: 45px;
+        left: 70px;
+        font-size: 3.9em;
+        color: #ffffff;
+        font-family: "SourceSansPro-Light";
+      }
+
+      .jumbotron {
+        margin-bottom: 50px;
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+      }
+
+      .jumbotron h2 {
+        font-size: 2.8em;
+      }
+
+      .jumbotron h4 {
+        font-size: 1.6em;
+      }
+}
+
+@media (max-width: 768px) {
+    .text-over-image {
+        position: absolute;
+        z-index: 1;
+        top: 45px;
+        left: 70px;
+        font-size: 2.3em;
+        color: #ffffff;
+        font-family: "SourceSansPro-Light";
+      }
+
+      #changePos #changePosText {
+          text-align: center;
+         order: 2;
+      }
+
+      
+
+      #changePos #changePosImage {
+        order: 1;
+      }
+
+      .jumbotron {
+        margin-bottom: 3px;
+        
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+      }
+
+      .jumbotron h2 {
+        font-size: 1.6em;
+      }
+
+      .jumbotron h4 {
+        font-size: 0.9em;
+      }
+}
+
